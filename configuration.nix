@@ -9,11 +9,11 @@
       ./hardware-configuration.nix
 
       ./system/users.nix
+      ./system/vpn.nix
       ./system/services.nix
       ./system/packages.nix
       ./system/fonts.nix
       <home-manager/nixos>   # import Home Manager module
-      #./home/razornovo.nix   # import user config for razornovo
     ];
 
   security.polkit.enable = true;
